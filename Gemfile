@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "web_rake"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -103,5 +105,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver", "~> 4.11.0"
 end
-
-gem "web_rake"
